@@ -1,0 +1,1 @@
+cmd_/home/pi/labo/opdracht3/rpi-kmod-samples/modules/opdrachtA1/A1.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/labo/opdracht3/rpi-kmod-samples/modules/opdrachtA1/A1.ko /home/pi/labo/opdracht3/rpi-kmod-samples/modules/opdrachtA1/A1.o /home/pi/labo/opdracht3/rpi-kmod-samples/modules/opdrachtA1/A1.mod.o ;  true
